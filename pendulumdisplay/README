@@ -1,0 +1,17 @@
+Date of creation:
+2015 April 15
+
+This script will graph serial outputs of 10 different Analog pins from an Arduino. As of writing, we're using an Arduino Leonardo.
+
+Things to note:
+- It uses a microUSB cable
+- The Leonardo is cheeky and has to be reset everytime you upload something new
+- This is for the Amazing Science X Challenge
+- It logs at 100 Hz
+
+Dependencies (the ones you might have to install):
+- pyqtgraph
+- pyserial
+- An Arduino with a computer connected to it, obviously
+
+

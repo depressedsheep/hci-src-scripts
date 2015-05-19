@@ -1,0 +1,18 @@
+Date of README creation: 2015 April 15
+
+Uses an Arduino (currently using arduino Uno) to graph and plot the serial output from a pin.
+
+This measures voltage.
+The voltage is changed by a NTC thermistor, which at of the date of writing has not been callibrated yet.
+
+This will write into a file named temperaturelog, which is admittedly unremarkable and might need future updates for proper house keeping.
+
+TO DO:
+------
+- Make it save into text files every hour, and zip it using gzip
+- Callibrate the thermistor.
+
+Dependencies:
+- pyserial
+- pyqtgraph
+- An arduino with a computer attached. Seriously
